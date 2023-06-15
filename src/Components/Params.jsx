@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Params({ onGenerateHorary }) {
+export default function Params({ onGenerateSchedule }) {
     const onSubmitParams = ( event ) => {
         event.preventDefault();
         console.log('New Params');
-        onGenerateHorary(event.target.form[0].value);
+        onGenerateSchedule(event.target.form[0].value);
     }
     return (
     <>

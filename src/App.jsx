@@ -9,17 +9,21 @@ function App() {
   const addMateria = ( materia ) => {
     setMaterias([ ...materias, materia ])
   }
-  const generateHorary = ( param ) => {
-    console.log(`From App.jsx: ${param}`)
+  const deleteMateria = ( id ) => {
+    setMaterias( materias.filter( ( materia ) => materia.id !== id ) )
+  }
+  const allMaterias = () => {
+    console.log(materias)
+  }
+  const generateSchedule = ( param ) => {
     setParams( param )
   }
   return (
     <>
       <h1> CalfNext </h1>
-      <h1> Contador { materias.length } </h1>
-      <ClassBar onAddMateria = { addMateria } />
+      <ClassBar onAddMateria = { addMateria } onAllMaterias = { allMaterias }/>
       <Calender items = { materias } params = { params } />
-      <Params onGenerateHorary = { generateHorary } />
+      <Params onGenerateSchedule = { generateSchedule } />
     </>
   )
 }

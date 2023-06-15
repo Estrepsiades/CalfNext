@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Dohyeon Font', sans-serif;
+    src: url('../fonts/dohyeon_font/FONT/DOHYEON.otf') format('otf'),
+        url('../fonts/dohyeon_font/FONT/DOHYEON.ttf') format('ttf');
+}
+.principalCharacteristics{
+    font-family: 'Dohyeon Font', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+.dificultyAndPriorityHtml{
+    font-family: 'Dohyeon Font', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}

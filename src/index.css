@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Dohyeon Font', sans-serif;
+    src: url('./fonts/dohyeon_font/FONT/DOHYEON.otf') format('otf'),
+        url('./fonts/dohyeon_font/FONT/DOHYEON.ttf') format('ttf');
+}
+body{
+    background-color: #303030;
+}
+h1{
+    font-family: 'Donheyon Font', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+label{
+    font-family: 'Donheyon Font', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
